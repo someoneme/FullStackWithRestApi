@@ -26,7 +26,7 @@ public class TestController {
 		this.employeeRepository = employeeRepository;
 	}
 	
-	@GetMapping("/employees")
+	@GetMapping("/employeess")
 	List<Employee> all(){
 		return employeeRepository.findAll();
 	}
